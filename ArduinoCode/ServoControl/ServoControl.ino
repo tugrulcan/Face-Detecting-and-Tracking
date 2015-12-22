@@ -7,7 +7,7 @@
   char sX[4], sY[4];
   int x, y;
   bool isDataRecieved = false;
-  int amountOfIncrease = 1;
+  int amountOfIncrease = 2;
 
 void setup() {
         Serial.begin(9600);

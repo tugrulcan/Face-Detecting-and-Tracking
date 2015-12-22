@@ -69,7 +69,7 @@ class FaceDetector {
                
           }  
           //This control decreases the amount of sending near values from pc to Arduino
-          if(preAvgX < currentAvgX -20 || preAvgX > currentAvgX +20 || preAvgY < currentAvgY -20 || preAvgY > currentAvgY +20){
+          if(preAvgX < currentAvgX -10 || preAvgX > currentAvgX +10 || preAvgY < currentAvgY -10 || preAvgY > currentAvgY +10){
         	  sds.SendDataToArduino(currentAvgX, currentAvgY);
         	  preAvgX = currentAvgX;
         	  preAvgY = currentAvgY;
