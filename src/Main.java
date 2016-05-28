@@ -56,6 +56,7 @@ public class Main {
              }  
             }
            webCam.release(); 
+           System.out.println("Merhaba Dünya");
  
       } //end main 
 	
